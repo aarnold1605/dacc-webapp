@@ -1,3 +1,6 @@
 body{
     background-color:  #80ffcc;
+    background-image: url('../../images/cyann.jpg');
+    background-repeat: no-repeat;
+    background-size: 2000px;
 }
