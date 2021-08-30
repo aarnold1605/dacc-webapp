@@ -1,9 +1,40 @@
 body{
     background-color:  #00e1ff;
     background-image: url('../../images/lblue1.jpg');
-    background-size: 900px;
+    background-size: 1000px;
     background-position: center;
     background-repeat: no-repeat;
     
     
+}
+ul.ulnav{
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0da2b6;
+}
+li.linav{
+    float: left;
+
+}
+li.linav a{
+    display: block;
+    color: #b4f6ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+li.linav a.active{
+    display: block;
+    color: #b4f6ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ 
+}
+li.linav a:hover{
+    background-color: rgb(0, 0, 0);
 }
