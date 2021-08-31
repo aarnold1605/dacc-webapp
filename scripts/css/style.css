@@ -25,8 +25,8 @@ li.linav a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20pt;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15pt;
+    font-family: sans-serif;
 
 }
 li.linav a.active{
@@ -40,27 +40,6 @@ li.linav a.active{
 li.linav a:hover{
     background-color: rgb(0, 0, 0);
     font-size: 20pt;
-}
-span.subtitle{
-    font-size: 15pt;
-    color: #0d7d8b;
-    font-family: Verdana;
-}
-span.maintitle{
-    font-size: 20pt;
-    color: #0d7d8b;
-    font-family: Verdana;
-
-}
-a.nav{
-    font-size: 10pt;
-    color: #000000;
-    font-family: Verdana;
-    text-decoration: none;
-}
-a.nav:hover{
-    font-size: 12pt;
-    color: #2c8874;
-    font-family: Verdana;
-    text-decoration: none;
+    font-style: oblique;
+    color: rgba(0, 255, 255, 0.5);
 }
