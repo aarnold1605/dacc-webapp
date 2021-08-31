@@ -8,7 +8,7 @@ body{
     
 }
 ul.ulnav{
-    border-radius: 5px;
+    border-radius: 2px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ ul.ulnav{
     background-color: #0da2b6;
 }
 li.linav{
-    float: left;
+    float: center;
 
 }
 li.linav a{
@@ -25,6 +25,8 @@ li.linav a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 20pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 li.linav a.active{
@@ -37,4 +39,28 @@ li.linav a.active{
 }
 li.linav a:hover{
     background-color: rgb(0, 0, 0);
+    font-size: 20pt;
+}
+span.subtitle{
+    font-size: 15pt;
+    color: #0d7d8b;
+    font-family: Verdana;
+}
+span.maintitle{
+    font-size: 20pt;
+    color: #0d7d8b;
+    font-family: Verdana;
+
+}
+a.nav{
+    font-size: 10pt;
+    color: #000000;
+    font-family: Verdana;
+    text-decoration: none;
+}
+a.nav:hover{
+    font-size: 12pt;
+    color: #2c8874;
+    font-family: Verdana;
+    text-decoration: none;
 }
