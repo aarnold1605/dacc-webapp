@@ -1,19 +1,20 @@
 body{
-    background-color:  #00e1ff;
+    background-color:  #0da2b6;
     background-image: url('../../images/lblue1.jpg');
-    background-size: 1250px;
+    background-size: 1500px; 
     background-position: center;
     background-repeat: no-repeat;
     
     
 }
 ul.ulnav{
-    border-radius: 2px;
+    border-radius: 10px;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #0da2b6;
+    height: 210px;
 }
 li.linav{
     float: center;
@@ -42,4 +43,24 @@ li.linav a:hover{
     font-size: 20pt;
     font-style: oblique;
     color: rgba(0, 255, 255, 0.5);
+}
+#page_wrapper{
+    border-radius: 5px;
+    border: 2px solid #1111;
+    padding: 10px;
+    height: 800px;
+    width: 900px;
+    background: #0da2b6;
+    margin-left: auto;
+    margin-right: auto;
+}
+p.p_content1{
+    font-size: 12pt;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: 2px solid #333333;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+
 }
